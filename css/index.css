@@ -2,6 +2,7 @@
    
     font-display: swap;
     font-family: Poppins;
+   
     
 
  
@@ -78,6 +79,9 @@ nav {
 }
 .left-section {
     margin-top: 2%;
+
+    
+
 }
 .sub-headline {
     font-size: 20px;
@@ -87,6 +91,9 @@ nav {
     font-weight: 100;
  
    
+}
+.right-section {
+  
 }
 .sub-headlines {
     margin-top: 50px;
@@ -177,4 +184,44 @@ nav {
     margin-top: 10%;
 
 } 
+.bar {
+    display: none;
+   
+}
+@media screen and (max-width: 814px) {
+  
+    .action-btns{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .action-btn {
+        margin-top: 20px;
+    }
+    nav {
+        justify-content: space-between;
+    }
 
+    .bar {
+        display: block;
+        background: none;
+        border: none;
+        width: 40px;
+       
+    }
+    .intro-section {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .nav-items ,.x{
+        display: none;
+    }
+   
+
+ 
+   
+
+ 
+  }
